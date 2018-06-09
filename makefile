@@ -87,7 +87,7 @@ install:
 	sudo cp -r scripts $(INSTPATH)/share
 	sudo chown -R pi:pi $(INSTPATH)/share/scripts
 
-instlight:
+instlite:
 
 	sudo cp $(EXEC) wpigsetup $(INSTPATH)/bin
 	sudo chown pi:pi $(INSTPATH)/bin/$(EXEC)
