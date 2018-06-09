@@ -9,11 +9,11 @@ It uses speech recognition CmuSphinx, and Computer Vision OpenCV libraries
 
 ### Prerequisites
 
-Rasbian environment with WiringPi, rpi.gpio installed
+Raspbian environment with WiringPi, rpi.gpio installed
 
-C++ compilator like g++ installed
+c++ compilator like g++ installed
 
-A few library dependencies readable in makefile!
+a few library dependencies readable in makefile!
 
 finish install of OpenCV lib (prevent: you will probably have to build your own opencv)
 
@@ -21,9 +21,9 @@ finish install & test of CMUsphinx lib
 
 ### Installing
 
-#Code compilation (without install output directories speech recognition & Computer Vision)
+#Code compilation & lite install (without install output directories speech recognition & Computer Vision)
 ```
-sudo make instlight
+sudo make instlite
 ```
 #Code compilation & full install
 ```
