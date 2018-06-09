@@ -1,0 +1,4 @@
+#! /bin/sh
+#/opt/mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer -b -i "/opt/mjpg-streamer/mjpg-streamer-experimental/input_file.so -d 0 -f /home/pi/workspace/MarcelAvril/tmp -n output.jpg" -o "/opt/mjpg-streamer/mjpg-streamer-experimental/output_http.so -w /opt/mjpg-streamer/mjpg-streamer-experimental/www" > /dev/null 2>/dev/null &
+/usr/local/bin/mjpg_streamer -i "/usr/local/lib/input_file.so -f /usr/local/tmp -n output.jpg" -o "/usr/local/lib/output_http.so -w www" > /dev/null 2>/dev/null &
+
