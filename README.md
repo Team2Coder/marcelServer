@@ -1,19 +1,19 @@
 # marcelServer
 Home robotic base server create afterwork! Run on Raspberry (ARM arch)
 
-This is a base of TCP server, able to drive motorized robotic with Raspberry
-Input commands come from the android apk Marcel (client interface), or from your custom interface
-Output commands go to a linked Arduino by serial usb port
+This is a base of TCP server, able to drive motorized robotic with Raspberry <br/>
+Input commands come from the android apk Marcel (client interface), or from your custom interface <br/>
+Output commands go to a linked Arduino by serial usb port <br/>
 
-Optionally:
+Optionally: <br/>
 It uses speech recognition CmuSphinx, and Computer Vision OpenCV libraries
 
 ### Prerequisites
 
-• Raspbian environment with WiringPi, rpi.gpio installed
-• c++ compilator like g++ installed
-• a few library dependencies readable in makefile!
-• finish install of OpenCV lib (prevent: you will probably have to build your own opencv)
+• Raspbian environment with WiringPi, rpi.gpio installed <br/>
+• c++ compilator like g++ installed <br/>
+• a few library dependencies readable in makefile! <br/>
+• finish install of OpenCV lib (prevent: you will probably have to build your own opencv) <br/>
 • finish install & test of CMUsphinx lib
 
 ### Installing
